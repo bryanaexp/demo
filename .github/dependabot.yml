@@ -9,6 +9,12 @@ updates:
     directory: "/javascript"
     schedule:
       interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/python"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+
   # - package-ecosystem: bundler
   #   directory: "/ruby"
   #   schedule:
